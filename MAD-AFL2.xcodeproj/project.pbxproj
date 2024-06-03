@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		653665C22BAD27DE004706F9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653665C12BAD27DE004706F9 /* main.swift */; };
+		653665CF2BBBC6EF004706F9 /* enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653665CE2BBBC6EF004706F9 /* enemy.swift */; };
+		653665D12BBBC701004706F9 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653665D02BBBC701004706F9 /* player.swift */; };
+		653665D32BBBCA0B004706F9 /* skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653665D22BBBCA0B004706F9 /* skills.swift */; };
+		653665D72BBC4078004706F9 /* battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653665D62BBC4078004706F9 /* battle.swift */; };
+		653665DB2BBC43BC004706F9 /* backpack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653665DA2BBC43BC004706F9 /* backpack.swift */; };
+		65DF38A02BBE694D006448F9 /* shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF389F2BBE694D006448F9 /* shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		653665BE2BAD27DE004706F9 /* MAD-AFL2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MAD-AFL2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		653665C12BAD27DE004706F9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		653665CE2BBBC6EF004706F9 /* enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enemy.swift; sourceTree = "<group>"; };
+		653665D02BBBC701004706F9 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		653665D22BBBCA0B004706F9 /* skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skills.swift; sourceTree = "<group>"; };
+		653665D62BBC4078004706F9 /* battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battle.swift; sourceTree = "<group>"; };
+		653665DA2BBC43BC004706F9 /* backpack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backpack.swift; sourceTree = "<group>"; };
+		65DF389F2BBE694D006448F9 /* shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				653665C12BAD27DE004706F9 /* main.swift */,
+				653665CE2BBBC6EF004706F9 /* enemy.swift */,
+				653665D02BBBC701004706F9 /* player.swift */,
+				653665D22BBBCA0B004706F9 /* skills.swift */,
+				653665D62BBC4078004706F9 /* battle.swift */,
+				653665DA2BBC43BC004706F9 /* backpack.swift */,
+				65DF389F2BBE694D006448F9 /* shop.swift */,
 			);
 			path = "MAD-AFL2";
 			sourceTree = "<group>";
@@ -120,7 +138,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653665D12BBBC701004706F9 /* player.swift in Sources */,
 				653665C22BAD27DE004706F9 /* main.swift in Sources */,
+				65DF38A02BBE694D006448F9 /* shop.swift in Sources */,
+				653665CF2BBBC6EF004706F9 /* enemy.swift in Sources */,
+				653665D72BBC4078004706F9 /* battle.swift in Sources */,
+				653665D32BBBCA0B004706F9 /* skills.swift in Sources */,
+				653665DB2BBC43BC004706F9 /* backpack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
